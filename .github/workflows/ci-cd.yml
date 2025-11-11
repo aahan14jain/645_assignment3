@@ -39,3 +39,4 @@ jobs:
 
     - name: Verify images pushed
       run: docker images
+# re-run pipeline test
