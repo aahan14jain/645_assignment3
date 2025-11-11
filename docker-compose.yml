@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./student-survey-backend
+    ports:
+      - "8000:8000"
+    container_name: student-survey-backend
+
+  frontend:
+    build: ./student-survey-frontend
+    ports:
+      - "3000:80"
+    container_name: student-survey-frontend
